@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+.height{
+    min-height: 100vh;
+}
+.title-underline{
+    width: 200px;
+    height: 3px;
+    margin: 0 auto;
+    /**for overriding the bootstrap 
+    /*background: blue!important;*/
+}
+.height-80{
+    min-height: 80vh;
+}
+.about-picture {
+    background: url("../images/about.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
+#progress{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)) ,url("../images/pexels-photo-218983.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
